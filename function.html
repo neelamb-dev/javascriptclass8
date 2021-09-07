@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+   <p>function a block of code to perform the prticular task and it can 
+       be resuable</p>
+       <pre>
+           // define the function
+           function function_name(){
+               statement goes here
+           }
+
+           // call the function
+           function_name()
+
+
+       </pre> 
+
+       <script>
+        //    //defining the function
+
+        const myDemo=(first_arg,second_arg)=>{
+            return first_arg*second_arg
+        }
+        //call the function
+        const a=myDemo(10,20)
+        document.write(`${a}`)
+        document.write(`<br>`)
+
+        const b=myDemo(5,4)
+        document.write(`${b}`)
+        document.write(`<br>`)
+
+        //    function demo(){
+        //        return 15+30
+        //    }
+           // defining the arrow function
+        //    const demo = () =>{
+        //        return 15+30
+        //    }
+           // arrow function with only one statement
+           const demo=()=>(15+30)
+
+           //call the function
+           let x=demo()//demo is the function name
+           document.write(`${x}`)
+       </script>
+</body>
+</html>
